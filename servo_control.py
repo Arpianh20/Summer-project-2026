@@ -18,7 +18,7 @@ def set_angle(angle):
     servo.ChangeDutyCycle(0)
 
 def release():
-    print(&quot;Releasing mechanism&quot;)
+    print("Releasing mechanism")
     set_angle(90)
     time.sleep(1)
     set_angle(0)
